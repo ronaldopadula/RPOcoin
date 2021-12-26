@@ -394,8 +394,8 @@
         <translation>Tabs taakbalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Betalingen aanvragen (genereert QR codes en litecoin: URI's)</translation>
+        <source>Request payments (generates QR codes and rpocoin: URIs)</source>
+        <translation>Betalingen aanvragen (genereert QR codes en rpocoin: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -406,8 +406,8 @@
         <translation>Toon de lijst van gebruikte ontvangst adressen en labels</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Open een litecoin: URI of betaalverzoek</translation>
+        <source>Open a rpocoin: URI or payment request</source>
+        <translation>Open een rpocoin: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

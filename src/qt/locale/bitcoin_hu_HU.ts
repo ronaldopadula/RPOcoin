@@ -398,8 +398,8 @@
         <translation>Ablak fülek eszköztára</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Kérjen fizetéseket (QR kódokat generál és litecoin: URLeket)</translation>
+        <source>Request payments (generates QR codes and rpocoin: URIs)</source>
+        <translation>Kérjen fizetéseket (QR kódokat generál és rpocoin: URLeket)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -410,8 +410,8 @@
         <translation>Mutassa a használt fogadó címek és cimkék listáját</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Nyisson meg egy litecoin: URI-t vagy fizetési kérelmet</translation>
+        <source>Open a rpocoin: URI or payment request</source>
+        <translation>Nyisson meg egy rpocoin: URI-t vagy fizetési kérelmet</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -854,12 +854,12 @@
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
-        <translation>A legutóbbi tranzakciók még lehet, hogy nem látszanak, ezért előfordulhat, hogy a pénztárca egyenlege nem a valós állapotot mutatja. Ha a pénztárca befejezte a szinkronizációt a litecoin hálózattal, utána már az aktuális egyenleget fogja mutatni, amint alant részletesen látszik.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the rpocoin network, as detailed below.</source>
+        <translation>A legutóbbi tranzakciók még lehet, hogy nem látszanak, ezért előfordulhat, hogy a pénztárca egyenlege nem a valós állapotot mutatja. Ha a pénztárca befejezte a szinkronizációt a rpocoin hálózattal, utána már az aktuális egyenleget fogja mutatni, amint alant részletesen látszik.</translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>A hálózat nem fogadja el azoknak a litecoinoknak az elköltését, amelyek érintettek a még nem látszódó tranzakciókban.</translation>
+        <source>Attempting to spend rpocoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>A hálózat nem fogadja el azoknak a rpocoinoknak az elköltését, amelyek érintettek a még nem látszódó tranzakciókban.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1246,8 +1246,8 @@
         <translation>Hiba történt a fizetési kérelem során</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>A litecoin nem tud elindulni: click-to-pay kezelő</translation>
+        <source>Cannot start rpocoin: click-to-pay handler</source>
+        <translation>A rpocoin nem tud elindulni: click-to-pay kezelő</translation>
     </message>
     <message>
         <source>URI handling</source>

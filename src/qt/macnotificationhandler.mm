@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.litecoin.RPOcoin-Qt";
+        return @"org.rpocoin.RPOcoin-Qt";
     } else {
         return [self __bundleIdentifier];
     }

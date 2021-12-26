@@ -63,7 +63,7 @@
     </message>
     <message>
         <source>These are your RPOcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Đây là các địa chỉ RPOcoin để gửi bạn gửi tiền. Trước khi gửi bạn nên kiểm tra lại số tiền bạn muốn gửi và địa chỉ litecoin của người nhận.</translation>
+        <translation>Đây là các địa chỉ RPOcoin để gửi bạn gửi tiền. Trước khi gửi bạn nên kiểm tra lại số tiền bạn muốn gửi và địa chỉ rpocoin của người nhận.</translation>
     </message>
     <message>
         <source>These are your RPOcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -391,7 +391,7 @@ Ví của bạn chưa được mã hóa.</translation>
         <translation>Thanh công cụ (toolbar)</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
+        <source>Request payments (generates QR codes and rpocoin: URIs)</source>
         <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ RPOcoin: URLs)</translation>
     </message>
     <message>
@@ -403,8 +403,8 @@ Ví của bạn chưa được mã hóa.</translation>
         <translation>Hiện thỉ danh sách các địa chỉ và nhãn đã dùng để nhận.</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Mở litecoin:URL hoặc yêu cầu thanh toán</translation>
+        <source>Open a rpocoin: URI or payment request</source>
+        <translation>Mở rpocoin:URL hoặc yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

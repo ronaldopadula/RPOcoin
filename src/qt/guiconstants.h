@@ -47,7 +47,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "RPOcoin"
-#define QAPP_ORG_DOMAIN "litecoin.org"
+#define QAPP_ORG_DOMAIN "rpocoin.org"
 #define QAPP_APP_NAME_DEFAULT "RPOcoin-Qt"
 #define QAPP_APP_NAME_TESTNET "RPOcoin-Qt-testnet"
 #define QAPP_APP_NAME_REGTEST "RPOcoin-Qt-regtest"

@@ -339,7 +339,7 @@
     </message>
     <message>
         <source>Send coins to a RPOcoin address</source>
-        <translation>Bir litecoin adresine litecoin gönder</translation>
+        <translation>Bir rpocoin adresine rpocoin gönder</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -410,8 +410,8 @@
         <translation>Sekme araç çubuğu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Ödeme talep et (QR kodu ve litecoin URI'si oluşturur)</translation>
+        <source>Request payments (generates QR codes and rpocoin: URIs)</source>
+        <translation>Ödeme talep et (QR kodu ve rpocoin URI'si oluşturur)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,8 +422,8 @@
         <translation>Kullanılmış alım adresleri ve etiketlerin listesini göster</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Bir litecoin: bağlantısı ya da ödeme talebi aç</translation>
+        <source>Open a rpocoin: URI or payment request</source>
+        <translation>Bir rpocoin: bağlantısı ya da ödeme talebi aç</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -872,12 +872,12 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
-        <translation>Son işlemler henüz görünmeyebilir ve bu nedenle cüzdanınızın bakiyesi yanlış olabilir. Bu bilgiler, aşağıda detaylandırıldığı gibi, cüzdanınız litecoin ağı ile senkronizasyonunu tamamladığında doğru olacaktır. </translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the rpocoin network, as detailed below.</source>
+        <translation>Son işlemler henüz görünmeyebilir ve bu nedenle cüzdanınızın bakiyesi yanlış olabilir. Bu bilgiler, aşağıda detaylandırıldığı gibi, cüzdanınız rpocoin ağı ile senkronizasyonunu tamamladığında doğru olacaktır. </translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Henüz görüntülenmeyen işlemlerden etkilenen litecoinleri harcama girişiminde bulunmak ağ tarafından kabul edilmeyecektir.</translation>
+        <source>Attempting to spend rpocoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Henüz görüntülenmeyen işlemlerden etkilenen rpocoinleri harcama girişiminde bulunmak ağ tarafından kabul edilmeyecektir.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1284,7 +1284,7 @@
         <translation>Ödeme talebi hatası</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
+        <source>Cannot start rpocoin: click-to-pay handler</source>
         <translation>RPOcoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
     <message>
@@ -1292,8 +1292,8 @@
         <translation>URI yönetimi</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin://' geçerli bir protokol değil. Onun yerine 'litecoin:' kullanınız.</translation>
+        <source>'rpocoin://' is not a valid URI. Use 'rpocoin:' instead.</source>
+        <translation>'rpocoin://' geçerli bir protokol değil. Onun yerine 'rpocoin:' kullanınız.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1788,7 +1788,7 @@
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
-        <translation>UYARI: RPOcoin dolandırıcılarının çok fazla etkin olduğu zamanlarda, dolandırıcılar bazı kullanıcılara buraya komutlar yazmalarını söylerek onların cüzdanlarındaki litecoinleri çalmışlardır. Bir komutun sonuçlarını tam olarak anlamadan bu konsolu kullanmayın.</translation>
+        <translation>UYARI: RPOcoin dolandırıcılarının çok fazla etkin olduğu zamanlarda, dolandırıcılar bazı kullanıcılara buraya komutlar yazmalarını söylerek onların cüzdanlarındaki rpocoinleri çalmışlardır. Bir komutun sonuçlarını tam olarak anlamadan bu konsolu kullanmayın.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -2298,8 +2298,8 @@
         <translation>Bu ögeyi kaldır</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Ücret yollanan tutardan alınacaktır. Alıcı tutar alanına girdiğinizden daha az litecoin alacaktır. Eğer birden çok alıcı seçiliyse ücret eşit olarak bölünecektir.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less rpocoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Ücret yollanan tutardan alınacaktır. Alıcı tutar alanına girdiğinizden daha az rpocoin alacaktır. Eğer birden çok alıcı seçiliyse ücret eşit olarak bölünecektir.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2326,8 +2326,8 @@
         <translation>Kullanılmış adres listesine eklemek için bu adrese bir etiket girin</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RPOcoin network.</source>
-        <translation>Referans için litecoin: URI'siyle iliştirilmiş işlemle birlikte depolanacak bir ileti. Not: Bu mesaj RPOcoin ağı üzerinden gönderilmeyecektir.</translation>
+        <source>A message that was attached to the rpocoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RPOcoin network.</source>
+        <translation>Referans için rpocoin: URI'siyle iliştirilmiş işlemle birlikte depolanacak bir ileti. Not: Bu mesaj RPOcoin ağı üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2371,8 +2371,8 @@
         <translation>İleti &amp;imzala</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Adreslerinize yollanan litecoinleri alabileceğiniz ispatlamak için adreslerinizle iletiler/anlaşmalar imzalayabilirsiniz. Oltalama saldırılarının kimliğinizi imzanızla elde etmeyi deneyebilecekleri için belirsiz ya da rastgele hiçbir şey imzalamamaya dikkat ediniz. Sadece ayrıntılı açıklaması olan ve tümüne katıldığınız ifadeleri imzalayınız.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive rpocoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Adreslerinize yollanan rpocoinleri alabileceğiniz ispatlamak için adreslerinizle iletiler/anlaşmalar imzalayabilirsiniz. Oltalama saldırılarının kimliğinizi imzanızla elde etmeyi deneyebilecekleri için belirsiz ya da rastgele hiçbir şey imzalamamaya dikkat ediniz. Sadece ayrıntılı açıklaması olan ve tümüne katıldığınız ifadeleri imzalayınız.</translation>
     </message>
     <message>
         <source>The RPOcoin address to sign the message with</source>
@@ -2649,7 +2649,7 @@
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Oluşturulan litecoin'lerin harcanabilmelerinden önce %1 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu "kabul edilmedi" olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
+        <translation>Oluşturulan rpocoin'lerin harcanabilmelerinden önce %1 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda, blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu "kabul edilmedi" olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -3108,7 +3108,7 @@
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Bu kararlı sürümden önceki bir deneme sürümüdür. - risklerini bilerek kullanma sorumluluğu sizdedir - litecoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
+        <translation>Bu kararlı sürümden önceki bir deneme sürümüdür. - risklerini bilerek kullanma sorumluluğu sizdedir - rpocoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
     </message>
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
@@ -3356,7 +3356,7 @@
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>İşlemdeki litecoin tutarı ücreti ödemek için çok düşük</translation>
+        <translation>İşlemdeki rpocoin tutarı ücreti ödemek için çok düşük</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
