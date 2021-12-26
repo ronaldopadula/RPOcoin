@@ -35,4 +35,4 @@ Assim, usar o **regtest:** do próprio Bitcoin é suficiente para manipular o si
 
 ### Código usado para a personalização
 
-a ser inserido
+a ser inserido em breve
