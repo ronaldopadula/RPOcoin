@@ -1,7 +1,7 @@
 RPOcoin Core clone
 =====================================
 
-Clone do repositório do RPOcoin, que por sua vez é um clone do Bitcoin
+Clone do repositório do Litecoin, que por sua vez é um clone do Bitcoin
 
 O que é RPOcoin?
 ----------------
