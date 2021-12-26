@@ -6,7 +6,7 @@ Clone do repositório do Litecoin, que por sua vez é um clone do Bitcoin
 O que é RPOcoin?
 ----------------
 
-É um clone do Bitcoin personalizado a partir do repositório do RPOcoin com o propósito de servir como objeto de estudos e material didático em curso específico.
+É um clone do Bitcoin personalizado a partir do repositório do litecoin com o propósito de servir como objeto de estudos e material didático em curso específico.
 
 Licença
 -------
@@ -17,7 +17,7 @@ information or see https://opensource.org/licenses/MIT.
 Processo de desenvolvimento
 -------------------
 
-O repositório do RPOcoin é clonado e modificado. Parte-se do princípio de que as alterações feitas no código do bitcoin quanto a personalização, fica mais vizível no código do RPOcoin, portanto, as alterações de personalização do RPOcoin são feitas observando os termos "RPOcoin", "litecoin" e "LTC". Substituidos por "RPOcoin", "rpocoin" e "RPO" respectivamente em todo o código clonado.
+O repositório do Litecoin é clonado e modificado. Parte-se do princípio de que as alterações feitas no código do bitcoin quanto a personalização, fica mais vizível no código do litecoin, portanto, as alterações de personalização do RPOcoin são feitas observando os termos "Litecoin", "litecoin" e "LTC". Substituidos por "RPOcoin", "rpocoin" e "RPO" respectivamente em todo o código clonado.
 
 Relevância
 -------
