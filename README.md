@@ -64,5 +64,44 @@ Foram feitas alterações mais cuidadosas manualmente, também nos seguinte arqu
 * .travis/test_06_script_a.sh
 * .travis/test_06_script_b.sh
 
+# instalação
 
+Uma vez feitas tais alterações, no diretório do RPOcoin foi configurado o db da seguinte forma:
 
+```
+$ wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
+$ sha256sum db-4.8.30.NC.tar.gz
+# o último comando deve ter gerado o *hash* 12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef
+$ tar -xvf db-4.8.30.NC.tar.gz
+$ cd db-4.8.30.NC/build_unix
+$ mkdir -p build
+$ BDB_PREFIX=$(pwd)/build
+$ ../dist/configure --disable-shared --enable-cxx --with-pic --prefix=$BDB_PREFIX
+$ make install
+```
+Com o erro detectado após $ make install, foi feito a seguinte correção:
+no diretório  /db-4.8.30.NC/dbinc/
+```
+$ nano atomic.h.
+```
+
+Line 147, substituir __atomic_compare_exchange((p), (o), (n)) para __atomic_compare_exchange_db((p), (o), (n))
+
+Line 179, substituir __atomic_compare_exchange( para __atomic_compare_exchange_db(
+
+# Compilar
+
+dentro do diretório raíz do RPOcoin:
+
+```
+$ ./autogen.sh
+$ ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" --with-gui
+$ make
+```
+# Testar
+
+No diretório /src:
+```
+$ ./rpocoin-cli --version
+$ ./rpocoind --version
+```
