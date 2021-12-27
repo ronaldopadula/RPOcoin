@@ -35,4 +35,34 @@ Assim, usar o **regtest:** do próprio Bitcoin é suficiente para manipular o si
 
 ### Código usado para a personalização
 
-a ser inserido em breve
+Com o fork feito neste repositório, foi feito o clone no computador. A personalização se deu com revisão e commits feitos pasta a pasta nos seguintes diretórios:
+* /src 
+* /test
+* /share
+* /doc
+* /depends
+* /contrib
+* /build_msv 
+* /build-aux
+
+Com o seguinte código é possível procurar e modificar automaticamente. Foram trocados os nomes relacionados a Litecoin para RPOcoin conform segue:
+
+```
+$ grep -rl 'Litecoin' ./ | xargs sed -i 's/Litecoin/RPOcoin/g'
+$ grep -rl 'litecoin' ./ | xargs sed -i 's/litecoin/rpocoin/g'
+$ grep -rl 'LTC' ./ | xargs sed -i 's/LTC/RPO/g'
+
+```
+
+Foram feitas alterações mais cuidadosas manualmente, também nos seguinte arquivos:
+
+* Makefile.am
+* configure.ac
+
+* .travis/test_04_install.sh
+* .travis/test_05_before_script.sh
+* .travis/test_06_script_a.sh
+* .travis/test_06_script_b.sh
+
+
+
