@@ -52,7 +52,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
     const char* pszTimestamp = "SP Times 28/Dez/2021 Ronaldo Padula it's 44 years old";
-    const CScript genesisOutputScript = CScript() << ParseHex("04cca10f2c382b25142dfd3ddc98a9334d666b7823bc8e60a7986529d60361433e5d57e247d4fdf92c06d9b2f78a74136300f347e1f81d681ca9f9aab6384e0699") << OP_CHECKSIG;
+    const CScript genesisOutputScript = CScript() << ParseHex("04b824eb8a0431e5512463126bf578653dc146743d70f7885f3951a9a81ffdf5f33abfdb3ef2e426a017933cd20f548f258e68f48d22a4d7284b26bd4457c3a723") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
